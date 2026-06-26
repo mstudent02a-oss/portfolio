@@ -1,0 +1,46 @@
+body {
+    font-family: Franklin Gothic Medium;
+
+}
+ul {
+    font-size: 20px;
+}
+ul:hover{
+    transform: translateX(400px);
+    transition: all 1s ease-out;
+}
+
+h1:hover {
+    transition: all 0.5s ease-in;
+    color: blueviolet;
+}
+
+h2 {
+    color: navy;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-bottom: 1px dotted navy;
+}
+img:hover{
+    transform: translateX(1500px);
+    transition: all 5s ease-out;
+}
+.text-big{
+    
+}
+.text-big:hover{
+    color: rgb(0, 19, 194);
+    transition: all 1s ease-in;
+    
+}
+.link-text{
+    font-family: sans-serif;
+}
+.link-text{
+    transition: all 1s ease-in;
+    color: rgb(0, 19, 194);
+
+}
